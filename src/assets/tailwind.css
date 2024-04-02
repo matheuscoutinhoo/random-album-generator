@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover-text:hover {
+   color: #CBF55C;
+   cursor: pointer;
+   transition: 400ms ease;
+}
